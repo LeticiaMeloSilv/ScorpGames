@@ -1,0 +1,64 @@
+<header class="header">
+    <div class="logo">
+        <img src="../img/logo.png" alt="Logo da aplicação, duas espadas cruzadas com um controle na frente" class="logo-img">
+    </div>
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="./" class="menu-link">Favoritos</a>
+            </li>
+            <li class="menu-item">
+                <a href="./" class="menu-link">Novidades</a>
+            </li>
+            <li class="menu-item">
+                <a href="./" class="menu-link">Conta</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<style>
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 46px;
+        background-color: transparent;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-item {
+        display: inline-block;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        color: #DCC8F1;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    .menu-link:hover {
+        color: #008170;
+    }
+</style>
